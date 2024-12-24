@@ -1,5 +1,22 @@
 .nav-bar{
     width: 100%;
     position: fixed;
-    background-color: #97b0ee;
+    color: white;
+    opacity: 0.9;
+}
+
+.nav-bar p{
+    /* color: #2b3072; */
+    color: white;
+    font-size: 16px;
+    font-family: Minion Pro,Times,serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 15px;
 }
