@@ -31,4 +31,12 @@
     font-family: Minion Pro,Times,serif;
     color: white;
     text-align: center;
+    margin: 0;
+}
+.home-content p {
+    font-size: 1.3em;
+    font-family: Minion Pro,Times,serif;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
