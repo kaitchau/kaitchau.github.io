@@ -2,7 +2,11 @@ import '../stylesheets/Home.css';
 export default function Home() {
     return(
         <div id='home' className='home-container'>
-            <img src={`${process.env.PUBLIC_URL}/anhm.jpg`} className='home-background-image' alt="Home Image"></img>
+            <picture className='home-background-image'>
+                <source media='(max-width: 768px)' srcSet={`${process.env.PUBLIC_URL}/anhm-mobile.jpg`}></source>
+                <source media='(min-width: 769px)' srcSet={`${process.env.PUBLIC_URL}/anhm.jpg`}></source>
+                <img src={`${process.env.PUBLIC_URL}/anhm.jpg`} alt="Home Image" />
+            </picture>
             <div className='home-content'>
                 <div style={{display:'flex', flexDirection:'column'}}>
                     <h1>Hi! My name is Kaitlyn</h1>
