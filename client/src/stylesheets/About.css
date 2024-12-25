@@ -28,3 +28,20 @@
     font-family: Minion Pro,Times,serif;
     color: #2b3072;
 }
+
+@media screen and (max-width: 768px) {
+    .about {
+        width: 80%;
+        height: 80%;
+    }
+
+    .about h1 {
+        font-size: 1.2em;
+    }
+
+    .about p {
+        margin: 0 20px;
+        font-size: 0.8em;
+    }
+    
+}
