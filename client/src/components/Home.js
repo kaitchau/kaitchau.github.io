@@ -1,7 +1,7 @@
 import '../stylesheets/Home.css';
 export default function Home() {
     return(
-        <div className='home-container'>
+        <div id='home' className='home-container'>
             <img src={`${process.env.PUBLIC_URL}/anhm.jpg`} className='home-background-image' alt="Home Image"></img>
             <div className='home-content'>
                 <div style={{display:'flex', flexDirection:'column'}}>
