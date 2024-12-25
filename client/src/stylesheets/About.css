@@ -17,9 +17,22 @@
 }
 
 .about h1 {
+    position: relative;
     font-size: 1.5em;
     font-family: Minion Pro,Times,serif;
     color: #2b3072;
+    margin-bottom: 25px;
+}
+
+.about h1::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px; /* Adjust the position of the line */
+    transform: translateX(-50%);
+    width: 150%; /* Adjust the width of the line to be longer than the text */
+    height: 2px; /* Adjust the height of the line */
+    background-color: #2b3072;
 }
 
 .about p {
@@ -28,6 +41,14 @@
     font-family: Minion Pro,Times,serif;
     color: #2b3072;
 }
+
+.about span, a {
+    font-size: 1em;
+    font-family: Minion Pro,Times,serif;
+    color: #2b3072;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 768px) {
     .about {

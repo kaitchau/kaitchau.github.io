@@ -49,14 +49,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .home-container {
-        height: auto;
-    }
-
-    .home-background-image {
-        height: auto;
-    }
-
     .home-profile-pic {
         height: 20vh;
         margin-left: 10vw;
