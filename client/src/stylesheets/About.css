@@ -7,11 +7,13 @@
 }
 
 .about {
-    background: rgba(165, 168, 173, 0.5);
+    background: rgba(165, 168, 173, 0.2);
     width: 50%;
     height: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about h1 {
@@ -21,6 +23,7 @@
 }
 
 .about p {
+    margin: 0 50px;
     font-size: 1em;
     font-family: Minion Pro,Times,serif;
     color: #2b3072;
