@@ -1,8 +1,11 @@
+import '../stylesheets/About.css';
+
 export default function About() {
     return (
-        <div style={{height:'100vh', width:'100%', display:'flex', justifyContent:'center', alignItems:'center'}}>
-            <div style={{background:'#b8c9e6', width:'50%', height:'50%'}}>
-                <p>About Me</p>
+        <div className="about-container">
+            <div className='about'>
+                <h1>About Me</h1>
+                <p>More about me</p>
             </div>
         </div>
     );

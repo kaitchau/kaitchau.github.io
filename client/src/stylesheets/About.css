@@ -1,0 +1,27 @@
+.about-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background: rgba(165, 168, 173, 0.5);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about h1 {
+    font-size: 1.5em;
+    font-family: Minion Pro,Times,serif;
+    color: #2b3072;
+}
+
+.about p {
+    font-size: 1em;
+    font-family: Minion Pro,Times,serif;
+    color: #2b3072;
+}
