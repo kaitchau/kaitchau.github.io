@@ -37,6 +37,7 @@ export default function NavBar() {
             <p>
                 <a href='#home' onClick={handleClick}>Home</a>
                 <a href='#about' onClick={handleClick}>About</a>
+                <a href='#projects' onClick={handleClick}>Projects</a>
                 <a href='#contact' onClick={handleClick}>Contact</a>
             </p>
         </nav>
