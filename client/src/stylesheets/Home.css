@@ -18,6 +18,11 @@
     object-fit: cover;
 }
 
+.home-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .home-profile-pic {
     height: 35vh;
     width: auto;
@@ -51,7 +56,13 @@
 @media screen and (max-width: 768px) {
     .home-profile-pic {
         height: 20vh;
-        margin-left: 10vw;
+        margin-bottom: 10vh;
+        margin-left: 0;
+        order: -1;
+    }
+
+    .home-content {
+        flex-direction: column;
     }
 
     .home-content h1 {

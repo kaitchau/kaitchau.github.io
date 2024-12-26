@@ -8,7 +8,7 @@ export default function Home() {
                 <img src={`${process.env.PUBLIC_URL}/anhm.jpg`} alt="Home Image" />
             </picture>
             <div className='home-content'>
-                <div style={{display:'flex', flexDirection:'column'}}>
+                <div className='home-text'>
                     <h1>Hi! My name is Kaitlyn</h1>
                     <p>Recent Computer Science Graduate</p>
                 </div>
