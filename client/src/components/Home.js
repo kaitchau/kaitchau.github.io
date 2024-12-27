@@ -10,7 +10,7 @@ export default function Home() {
             <div className='home-content'>
                 <div className='home-text'>
                     <h1>Hi! My name is Kaitlyn</h1>
-                    <p>Recent Computer Science Graduate</p>
+                    <p>Computer Science Graduate class of 2025</p>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/grad-pic.png`} className='home-profile-pic' alt='Profile Pic'></img>
             </div>
