@@ -35,11 +35,11 @@ export default function NavBar() {
     return(
         <nav className={`nav-bar ${scrolled ? 'scrolled' : ''}`}>
             <p>
-                <a href='#home' onClick={handleClick}>Home</a>
                 <a href='#about' onClick={handleClick}>About</a>
                 <a href='#projects' onClick={handleClick}>Projects</a>
                 <a href='#contact' onClick={handleClick}>Contact</a>
             </p>
+            <a className='vertical-home-btn' href='#home' onClick={handleClick}>Kaitlyn Chau</a>
         </nav>
     );
 }

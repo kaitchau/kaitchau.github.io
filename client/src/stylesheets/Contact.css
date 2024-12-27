@@ -42,3 +42,10 @@
     height: 2px; /* Adjust the height of the line */
     background-color: #2b3072;
 }
+
+.contact-content img {
+    width: 2.5vh;
+    height: auto;
+    margin: 0 0;
+    border-radius: 3px;
+}

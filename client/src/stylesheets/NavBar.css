@@ -24,3 +24,9 @@
 .nav-bar.scrolled {
     color: #2b3072;
 }
+
+.vertical-home-btn {
+    font-size: 1.3em;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
