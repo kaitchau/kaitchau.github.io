@@ -46,3 +46,16 @@
 .projects-list{
     padding: 0;
 }
+
+.projects-list li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Minion Pro,Times,serif;
+    color: #2b3072;
+}
+
+.projects-list h2 {
+    font-size: 1.4em;
+}
