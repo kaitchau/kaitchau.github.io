@@ -64,3 +64,19 @@
     width: 40vw;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .projects-content {
+        width: 80%;
+        height: 80%;
+    }
+
+    .projects-content h1 {
+        font-size: 1.2em;
+    }
+
+    .projects-list img {
+        width: 80vw;
+    }
+    
+}
