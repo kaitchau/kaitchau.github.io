@@ -1,12 +1,12 @@
 .projects-container {
-    height: 100vh;
+    height: 180vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .projects-content {
+    margin-top: 25vh;
     width: 50%;
     height: 50%;
     display: flex;
@@ -72,6 +72,10 @@
     }
 
     .projects-content h1 {
+        font-size: 1.4em;
+    }
+
+    .projects-list h2 {
         font-size: 1.2em;
     }
 

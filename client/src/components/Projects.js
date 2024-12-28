@@ -11,6 +11,8 @@ export default function Projects() {
                         <p>Created and integrated interactive data visualizations using React and Chart.js to analyze and display gerrymandering data, including scatter plots, bar charts, and box-and-whisker plots.</p>
                         <img src={`${process.env.PUBLIC_URL}/votifier-dt-ss.png`}></img>
                         <br/>
+                        <img src={`${process.env.PUBLIC_URL}/votifier-md-heatmap.png`}></img>
+                        <br/>
                         <a href='https://votifier.net'>https://votifier.net</a>
                         <br/>
                         <a href='https://github.com/SBU-CSE-416/votifier'>https://github.com/SBU-CSE-416/votifier</a>
