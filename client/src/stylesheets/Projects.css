@@ -59,3 +59,8 @@
 .projects-list h2 {
     font-size: 1.4em;
 }
+
+.projects-list img {
+    width: 40vw;
+    height: auto;
+}
